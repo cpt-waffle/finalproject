@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Urls</h1>
+      <h1>Short Urls</h1>
       {Object.keys(urls).map(shortURL => <li>{shortURL} {urls[shortURL]} </li>)}
     </div>
   );
